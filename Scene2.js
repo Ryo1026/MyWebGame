@@ -35,7 +35,7 @@ class Scene2 extends Phaser.Scene {
       this
     );
 
-    // 隕石1群組
+    // 隕石1群組 增加物理屬性
     this.mutiMeteor1 = this.physics.add.group();
 
     for (let i = 0; i < 8; i++) {

@@ -96,7 +96,7 @@ class Scene1 extends Phaser.Scene {
     });
 
     // 改變Scene
-    this.button.setInteractive();
+    this.button.setInteractive({ cursor: "pointer" });
     this.button.on(
       "pointerdown",
       function (pointer) {
