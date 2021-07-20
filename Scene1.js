@@ -30,6 +30,8 @@ class Scene1 extends Phaser.Scene {
   }
 
   create() {
+    console.log(this.scene.systems.game.config);
+
     const sprites = this.add.group();
 
     this.balls = [];
